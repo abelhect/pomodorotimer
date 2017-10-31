@@ -1,0 +1,15 @@
+{
+  "short_name": "PomodoroTimer",
+  "name": "This a custome times created while learning react",
+  "icons": [
+    {
+      "src": "pomodoro.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

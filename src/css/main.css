@@ -1,0 +1,53 @@
+body{
+  height: 100%;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn {
+  background-color: #ec3700;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 200px;
+  text-shadow: -2px 2px #000;
+  background-image: linear-gradient(to bottom right, #e20d05, #ff6d56);
+  box-shadow: -1px -1px 0 0 #000;
+  border-radius: 10px;
+}
+.btn:hover {
+  box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+  color: white;
+}
+.btn:active {
+  box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 15px #193047;
+}
+#set_time {
+  width: 70px;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+
+}
+#picture {
+  text-align: center;
+  margin: 10px;
+}
+#minutes {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  font-size: 35px;
+left: 50%;
+width: 400px;
+height: 200px;
+margin-left: -200px;
+margin-top: -150px;
+color: white;
+text-shadow: -2px 2px #000;
+}
